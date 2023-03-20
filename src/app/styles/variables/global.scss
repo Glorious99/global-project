@@ -1,6 +1,7 @@
+/* stylelint-disable custom-property-empty-line-before */
 :root {
-  //--font-family-main: Verdana, "Arial", sans-serif;
-  --font-family-main: Courier, "Monaco", Monospace;
+  // --font-family-main: Verdana, "Arial", sans-serif;
+  --font-family-main: courier, "Monaco", monospace;
 
   --font-size-m: 16px;
   --font-line-m: 24px;
@@ -10,7 +11,7 @@
   --font-line-l: 32px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
 
-  //Размеры
+  // Размеры
   --navbar-height: 50px;
   --sidebar-width: 300px;
   --sidebar-width-collapsed: 80px;

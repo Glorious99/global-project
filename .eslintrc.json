@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "i18next"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:i18next/recommended"
+  ],
+  "ignorePatterns": ["node_modules", ".vscode", "/build", ".gitignore"],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "i18next/no-literal-string": 1
+  }
+}
