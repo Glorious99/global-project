@@ -8,7 +8,14 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:i18next/recommended"
   ],
-  "ignorePatterns": ["node_modules", ".vscode", "/build", ".gitignore"],
+  "ignorePatterns": [
+    "node_modules",
+    ".vscode",
+    "/build",
+    ".gitignore",
+    "src/stories",
+    "config/storybook"
+  ],
   "rules": {
     "@typescript-eslint/ban-ts-comment": "warn",
     "i18next/no-literal-string": 1
