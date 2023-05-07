@@ -5,5 +5,7 @@
   "Страница не найдена": "Page not found",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Обновить страницу": "Reload the page",
-  "кинуть ошибку": "throw error"
+  "кинуть ошибку": "throw error",
+  "Главная": "Home",
+  "О сайте": "About"
 }
