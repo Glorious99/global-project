@@ -13,7 +13,9 @@
     "jest:init": "jest --init",
     "unit": "jest --config ./config/jest/jest.config.ts",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "build-storybook": "storybook build -c ./config/storybook"
+    "build-storybook": "storybook build -c ./config/storybook",
+    "test:ui": "npx loki test",
+    "test:ui:ok": "npx loki approve"
   },
   "keywords": [],
   "author": "",
@@ -98,6 +100,7 @@
   "homepage": "https://github.com/Glorious99/global-project#readme",
   "description": "",
   "loki": {
+    "chromeSelector": "#storybook-root > *",
     "configurations": {
       "chrome.laptop": {
         "target": "chrome.docker",
