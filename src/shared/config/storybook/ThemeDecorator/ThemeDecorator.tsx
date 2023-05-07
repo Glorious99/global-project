@@ -1,9 +1,9 @@
-import { Decorator, StoryFn } from "@storybook/react";
+import { DecoratorFn, StoryFn } from "@storybook/react";
 import { Theme, ThemeProvider } from "app/providers/ThemeProvider";
 import "app/styles/index.scss";
 
 export const ThemeDecorator =
-  (theme: Theme): Decorator =>
+  (theme: Theme): DecoratorFn =>
   (Story: StoryFn) => {
     return (
       <ThemeProvider>

@@ -7,7 +7,6 @@ import { ErrorPage } from "./ErrorPage";
 const meta = {
   title: "widget/ErrorPage",
   component: ErrorPage,
-  tags: ["autodocs"],
   argTypes: {
     // backgroundColor: { control: "color" },
   },

@@ -7,7 +7,6 @@ import MainPage from "./MainPage";
 const meta = {
   title: "pages/MainPage",
   component: MainPage,
-  tags: ["autodocs"],
   argTypes: {
     // backgroundColor: { control: "color" },
   },

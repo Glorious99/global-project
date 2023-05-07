@@ -7,7 +7,6 @@ import { NotFoundPage } from "./NotFoundPage";
 const meta = {
   title: "pages/NotFoundPage",
   component: NotFoundPage,
-  tags: ["autodocs"],
   argTypes: {
     // backgroundColor: { control: "color" },
   },

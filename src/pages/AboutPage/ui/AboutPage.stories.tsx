@@ -7,7 +7,6 @@ import AboutPage from "./AboutPage";
 const meta = {
   title: "pages/AboutPage",
   component: AboutPage,
-  tags: ["autodocs"],
   argTypes: {
     // backgroundColor: { control: "color" },
   },

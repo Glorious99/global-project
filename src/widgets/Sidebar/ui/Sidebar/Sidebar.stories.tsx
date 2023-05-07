@@ -7,7 +7,6 @@ import { Sidebar } from "./Sidebar";
 const meta = {
   title: "widget/Sidebar",
   component: Sidebar,
-  tags: ["autodocs"],
   argTypes: {
     // backgroundColor: { control: "color" },
   },
