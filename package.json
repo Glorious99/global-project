@@ -104,9 +104,6 @@
   "homepage": "https://github.com/Glorious99/global-project#readme",
   "description": "",
   "loki": {
-    "looks-same": {
-      "ignoreCaret": true
-    },
     "chromeSelector": "#storybook-root > *",
     "configurations": {
       "chrome.laptop": {
