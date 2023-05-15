@@ -2,10 +2,11 @@
   "Перевод": "Translate",
   "Главная страница": "Main page",
   "Язык": "English",
+  "Короткий язык": "En",
   "Страница не найдена": "Page not found",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Обновить страницу": "Reload the page",
   "кинуть ошибку": "throw error",
-  "Главная": "Home",
-  "О сайте": "About"
+  "Главная": "Main",
+  "О сайте": "About us"
 }
