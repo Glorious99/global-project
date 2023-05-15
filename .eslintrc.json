@@ -18,6 +18,7 @@
   ],
   "rules": {
     "@typescript-eslint/ban-ts-comment": "warn",
-    "i18next/no-literal-string": 1
+    "i18next/no-literal-string": 1,
+    "linebreak-style": 0
   }
 }
