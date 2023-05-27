@@ -18,6 +18,12 @@ Primary.args = {
   children: "Text",
 };
 
+export const ClearInverted = Template.bind({});
+ClearInverted.args = {
+  children: "Text",
+  theme: ButtonTheme.CLEAR_INVERTED,
+};
+
 export const Clear = Template.bind({});
 Clear.args = {
   children: "Text",
@@ -65,14 +71,14 @@ BackgroundInverted.args = {
 
 export const Square = Template.bind({});
 Square.args = {
-  children: "Text",
+  children: ">",
   theme: ButtonTheme.BACKGROUND_INVERTED,
   square: true,
 };
 
 export const SquareSizeL = Template.bind({});
 SquareSizeL.args = {
-  children: "Text",
+  children: ">",
   theme: ButtonTheme.BACKGROUND_INVERTED,
   square: true,
   size: ButtonSize.L,
@@ -80,7 +86,7 @@ SquareSizeL.args = {
 
 export const SquareSizeXL = Template.bind({});
 SquareSizeXL.args = {
-  children: "Text",
+  children: ">",
   theme: ButtonTheme.BACKGROUND_INVERTED,
   square: true,
   size: ButtonSize.XL,

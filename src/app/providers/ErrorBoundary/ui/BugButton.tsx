@@ -1,6 +1,8 @@
+import { Theme } from "app/providers/ThemeProvider";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Button } from "shared/ui/Button/Button";
+import { classNames } from "shared/lib/classNames/classNames";
+import { Button, ButtonTheme } from "shared/ui/Button/Button";
 
 //Компонент для тестирования ErrorBoundary
 export function BugButton() {
@@ -10,9 +12,17 @@ export function BugButton() {
 
   useEffect(() => {
     if (error) {
-      throw new Error();
+      throw new Error("I crashed!");
     }
   }, [error]);
 
-  return <Button onClick={onThrow}>{t("кинуть ошибку")}</Button>;
+  return (
+    <Button
+      onClick={onThrow}
+      theme={ButtonTheme.BACKGROUND}
+      style={{ border: "solid" }}
+    >
+      {t("кинуть ошибку")}
+    </Button>
+  );
 }

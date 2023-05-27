@@ -6,7 +6,7 @@ export const ThemeDecorator =
   (theme: Theme): DecoratorFn =>
   (Story: StoryFn) => {
     return (
-      <ThemeProvider>
+      <ThemeProvider initialTheme={theme}>
         <div className={`app ${theme}`}>
           <Story />
         </div>
