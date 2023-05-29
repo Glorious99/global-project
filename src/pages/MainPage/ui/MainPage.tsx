@@ -8,7 +8,6 @@ function MainPage() {
   return (
     <div>
       <BugButton /> {t("Главная страница")}
-      <Counter />
     </div>
   );
 }

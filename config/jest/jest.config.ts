@@ -43,6 +43,7 @@ export default {
   moduleNameMapper: {
     "\\.(s?css)$": "identity-obj-proxy",
     "\\.svg": path.resolve(__dirname, "jestEmptyComponent.tsx"), //для работы svg в jest
+    "entities/(.*)": "<rootDir>src/entities/$1",
   },
 
   // Indicates whether the coverage information should be collected while executing the test
