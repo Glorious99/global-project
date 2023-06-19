@@ -1,7 +1,5 @@
-import { Theme } from "app/providers/ThemeProvider";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { classNames } from "shared/lib/classNames/classNames";
 import { Button, ButtonTheme } from "shared/ui/Button/Button";
 
 //Компонент для тестирования ErrorBoundary
