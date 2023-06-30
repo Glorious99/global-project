@@ -1,12 +1,18 @@
 {
-  "Перевод": "Translate",
+  "Введите логин": "Enter username",
+  "Введите пароль": "Enter password",
+  "Войти": "Login",
+  "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
+  "Выйти": "Logout",
+  "Главная": "Main",
   "Главная страница": "Main page",
+  "О сайте": "About us",
+  "Обновить страницу": "Reload the page",
+  "Переключить": "toggle",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Страница не найдена": "Page not found",
+  "Форма авторизации": "Authorization form",
   "Язык": "English",
   "Короткий язык": "En",
-  "Страница не найдена": "Page not found",
-  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
-  "Обновить страницу": "Reload the page",
-  "кинуть ошибку": "throw error",
-  "Главная": "Main",
-  "О сайте": "About us"
+  "кинуть ошибку": "throw error"
 }
