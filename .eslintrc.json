@@ -8,6 +8,10 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:i18next/recommended"
   ],
+  "globals": {
+    "__IS_DEV__": true,
+    "__API__": true
+  },
   "ignorePatterns": [
     "node_modules",
     ".vscode",
