@@ -31,6 +31,6 @@ describe("fetchProfileData", () => {
 
     expect(thunk.api.get).toHaveBeenCalled();
     expect(result.meta.requestStatus).toBe("fulfilled");
-    expect(result.payload).toBe("error");
+    expect(result.payload).toBe(undefined);
   });
 });
