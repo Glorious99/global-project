@@ -5,6 +5,7 @@
   "scripts": {
     "start": "webpack serve --env port=3000",
     "start:serv": "node ./json-server/index.js",
+    "start:all": "concurrently \"npm run start\" \"npm run start:serv\"",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
@@ -13,7 +14,7 @@
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "jest:init": "jest --init",
     "unit": "jest --config ./config/jest/jest.config.ts",
-    "test:ui": "npx loki test update",
+    "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "concurrently -s first -k \"npm run storybook\" \"npm run test:ui\"",
     "test:ui:json": "node scripts/generate-visual-json-report.js",

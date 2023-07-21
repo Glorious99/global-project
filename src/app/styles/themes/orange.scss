@@ -1,0 +1,11 @@
+/* stylelint-disable custom-property-empty-line-before */
+:root,
+.app_orange_theme {
+  --bg-color: #faf4fb;
+  --inverted-bg-color: #bd5012;
+
+  --primary-color: #9a1a0e; // Заголовок
+  --secondary-color: #d01f0e; // Описание к заголовку
+  --inverted-primary-color: #dbd5dc; // Заголовок
+  --inverted-secondary-color: #faf4fb; // Описание к заголовку
+}
