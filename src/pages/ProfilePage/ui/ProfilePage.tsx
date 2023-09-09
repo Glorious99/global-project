@@ -12,7 +12,7 @@ import {
   profileReducer,
   ValidateProfileError,
 } from "entitiess/Profile";
-import { useCallback, useEffect } from "react";
+import { memo, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 import { classNames } from "shared/lib/classNames/classNames";
@@ -23,6 +23,8 @@ import {
 import { useAppDispatch } from "shared/lib/hooks/useAppDispatch/useAppDispatch";
 import { Text, TextTheme } from "shared/ui/Text/Text";
 import { ProfilePageHeader } from "./ProfilePageHeader/ProfilePageHeader";
+import { useInitialEffect } from "shared/lib/hooks/useInitialEffect/useInitialEffect";
+import { useParams } from "react-router-dom";
 
 const reducers: ReducersList = {
   profile: profileReducer,
@@ -41,7 +43,7 @@ const ProfilePage = (props: ProfilePageProps) => {
   const readonly = useSelector(getProfileReadonly);
   const validateErrors = useSelector(getProfileValidateErrors);
   const { t } = useTranslation("profile");
-
+  const { id } = useParams<{ id: string }>();
   const validateErrorTranslates = {
     [ValidateProfileError.SERVER_ERROR]: t("Серверная ошибка при сохранении"),
     [ValidateProfileError.INCORRECT_COUNTRY]: t("Некорректный регион"),
@@ -50,11 +52,9 @@ const ProfilePage = (props: ProfilePageProps) => {
     [ValidateProfileError.INCORRECT_AGE]: t("Некорректный возраст"),
   };
 
-  useEffect(() => {
-    if (__PROJECT__ !== "storybook") {
-      dispatch(fetchProfileData());
-    }
-  }, [dispatch]);
+  useInitialEffect(() => {
+    id && dispatch(fetchProfileData(id));
+  });
 
   // useCallback, т.к. будем передавать функцию
   // как пропс компонентам
@@ -139,4 +139,4 @@ const ProfilePage = (props: ProfilePageProps) => {
   );
 };
 
-export default ProfilePage;
+export default memo(ProfilePage);

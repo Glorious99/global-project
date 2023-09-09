@@ -13,6 +13,7 @@ describe("fetchProfileData", () => {
     first: "Pety",
     city: "Zalupinsk",
     currency: Currency.USD,
+    id: "1",
   };
   test("succes ", async () => {
     const thunk = new TestAsyncThunk(updateProfileData, {

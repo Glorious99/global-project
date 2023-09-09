@@ -1,12 +1,17 @@
 .link {
-  margin-left: 10px;
+  margin-left: 30px;
   opacity: 1;
+  position: fixed;
 }
 
-.item {
-  margin-top: 10px;
+.items {
+  margin-top: 20px;
   display: flex;
   align-items: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .icon {

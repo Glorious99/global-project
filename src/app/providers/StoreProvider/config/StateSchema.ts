@@ -6,10 +6,13 @@ import {
   ReducersMapObject,
 } from "@reduxjs/toolkit";
 import { AxiosInstance } from "axios";
+import { ArticleDetailsSchema } from "entitiess/Article";
 import { CounterSchema } from "entitiess/Counter";
 import { ProfileSchema } from "entitiess/Profile";
 import { UserSchema } from "entitiess/User";
 import { LoginSchema } from "features";
+import { AddCommentFormSchema } from "features/addCommentForm";
+import { ArticleDetailsCommentsSchema } from "pages/ArticleDetailsPage";
 import { NavigateOptions, To } from "react-router-dom";
 
 export interface StateSchema {
@@ -19,6 +22,9 @@ export interface StateSchema {
   //Асинхронные редюсеры
   loginForm?: LoginSchema;
   profile?: ProfileSchema;
+  articleDetails?: ArticleDetailsSchema;
+  articleDetailsComments?: ArticleDetailsCommentsSchema;
+  addCommentForm?: AddCommentFormSchema;
 }
 
 export type StateSchemaKey = keyof StateSchema;
