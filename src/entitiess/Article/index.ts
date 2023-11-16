@@ -1,3 +1,5 @@
+export { ArticleViewSelectors } from "./ui/ArticleViewSelectors/ArticleViewSelectors";
+
 export { ArticleView } from "./model/types/article";
 
 export { getArticleDetailsData } from "./model/selectors/articleDetails";
