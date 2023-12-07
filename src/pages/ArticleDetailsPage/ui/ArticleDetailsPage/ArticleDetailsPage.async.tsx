@@ -1,7 +1,9 @@
 import { lazy } from "react";
 
 //Рабочая модель
-// export const ArticlesPageAsync = lazy(() => import("./MainPage"));
+// export const ArticleDetailsPageAsync = lazy(
+//   () => import("./ArticleDetailsPage")
+// );
 
 // для проверки индикатора загрузки
 export const ArticleDetailsPageAsync = lazy(

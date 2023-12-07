@@ -1,6 +1,14 @@
+export { ArticleTypeTabs } from "./ui/ArticleTypeTabs/ArticleTypeTabs";
+
+export { ArticleSortSelector } from "./ui/ArticleSortSelector/ArticleSortSelector";
+
 export { ArticleViewSelectors } from "./ui/ArticleViewSelectors/ArticleViewSelectors";
 
-export { ArticleView } from "./model/types/article";
+export {
+  ArticleView,
+  ArticleSortField,
+  ArticleType,
+} from "./model/types/article";
 
 export { getArticleDetailsData } from "./model/selectors/articleDetails";
 

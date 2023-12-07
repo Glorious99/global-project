@@ -29,7 +29,7 @@
       "subtitle": "Что нового в JS за 2023 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
       "views": 1022,
-      "createdAt": "26.02.2023",
+      "createdAt": "06.05.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -94,12 +94,12 @@
     },
     {
       "id": "2",
-      "title": "Python news",
+      "title": "Python news 2024",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 2037,
+      "createdAt": "12.12.2024",
       "type": ["IT"],
       "blocks": [
         {
@@ -164,12 +164,12 @@
     },
     {
       "id": "3",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2023",
       "userId": "1",
       "subtitle": "Что нового в Kotlin за 2023 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 78025,
+      "createdAt": "16.08.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -234,12 +234,12 @@
     },
     {
       "id": "4",
-      "title": "Javascript news",
+      "title": "Javascript news 2022",
       "userId": "1",
-      "subtitle": "Что нового в JS за 2023 год?",
+      "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 19245,
+      "createdAt": "26.02.2022",
       "type": ["IT"],
       "blocks": [
         {
@@ -304,12 +304,12 @@
     },
     {
       "id": "5",
-      "title": "Python news",
+      "title": "Python news 2020",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2020 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 25763,
+      "createdAt": "31.05.2020",
       "type": ["IT"],
       "blocks": [
         {
@@ -374,12 +374,12 @@
     },
     {
       "id": "6",
-      "title": "Kotlin news",
+      "title": "2023 Kotlin news",
       "userId": "1",
       "subtitle": "Что нового в Kotlin за 2023 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 32812,
+      "createdAt": "04.08.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -444,12 +444,12 @@
     },
     {
       "id": "7",
-      "title": "Javascript news",
+      "title": "2020 Javascript news",
       "userId": "1",
-      "subtitle": "Что нового в JS за 2023 год?",
+      "subtitle": "Что нового в JS за 2020 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
       "views": 1022,
-      "createdAt": "26.02.2023",
+      "createdAt": "07.01.2020",
       "type": ["IT"],
       "blocks": [
         {
@@ -514,12 +514,12 @@
     },
     {
       "id": "8",
-      "title": "Python news",
+      "title": "Python news 2019 OLD",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2019 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 170934,
+      "createdAt": "14.09.2019",
       "type": ["IT"],
       "blocks": [
         {
@@ -584,12 +584,12 @@
     },
     {
       "id": "9",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2020",
       "userId": "1",
-      "subtitle": "Что нового в Kotlin за 2023 год?",
+      "subtitle": "Что нового в Kotlin за 2020 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 1946,
+      "createdAt": "05.04.2020",
       "type": ["IT"],
       "blocks": [
         {
@@ -656,10 +656,10 @@
       "id": "10",
       "title": "Javascript news",
       "userId": "1",
-      "subtitle": "Что нового в JS за 2023 год?",
+      "subtitle": "Что нового в JS за 1999 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 29463,
+      "createdAt": "26.02.1999",
       "type": ["IT"],
       "blocks": [
         {
@@ -724,12 +724,12 @@
     },
     {
       "id": "11",
-      "title": "Python news",
+      "title": "Python news 2022",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2022 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 676230,
+      "createdAt": "04.08.2022",
       "type": ["IT"],
       "blocks": [
         {
@@ -796,10 +796,10 @@
       "id": "12",
       "title": "Kotlin news",
       "userId": "1",
-      "subtitle": "Что нового в Kotlin за 2023 год?",
+      "subtitle": "Что нового в Kotlin за 2021 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 657820,
+      "createdAt": "31.12.2021",
       "type": ["IT"],
       "blocks": [
         {
@@ -868,8 +868,8 @@
       "userId": "1",
       "subtitle": "Что нового в JS за 2023 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 190456,
+      "createdAt": "05.12.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -938,8 +938,8 @@
       "userId": "1",
       "subtitle": "Что нового в Python за 2023 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 10465,
+      "createdAt": "11.11.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -1004,12 +1004,12 @@
     },
     {
       "id": "14",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2020",
       "userId": "1",
-      "subtitle": "Что нового в Kotlin за 2023 год?",
+      "subtitle": "Что нового в Kotlin за 2020 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 34568,
+      "createdAt": "14.07.2020",
       "type": ["IT"],
       "blocks": [
         {
@@ -1074,12 +1074,12 @@
     },
     {
       "id": "15",
-      "title": "Javascript news",
+      "title": "Javascript news in 2020",
       "userId": "1",
-      "subtitle": "Что нового в JS за 2023 год?",
+      "subtitle": "Что нового в JS за 2020 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 29465,
+      "createdAt": "01.09.2020",
       "type": ["IT"],
       "blocks": [
         {
@@ -1146,10 +1146,10 @@
       "id": "16",
       "title": "Python news",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2024 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 1,
+      "createdAt": "01.02.2024",
       "type": ["IT"],
       "blocks": [
         {
@@ -1214,12 +1214,12 @@
     },
     {
       "id": "17",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2019",
       "userId": "1",
-      "subtitle": "Что нового в Kotlin за 2023 год?",
+      "subtitle": "Что нового в Kotlin за 2019 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 2983,
+      "createdAt": "03.05.2019",
       "type": ["IT"],
       "blocks": [
         {
@@ -1284,12 +1284,12 @@
     },
     {
       "id": "18",
-      "title": "Javascript news",
+      "title": "Javascript news 2023",
       "userId": "1",
       "subtitle": "Что нового в JS за 2023 год?",
       "img": "https://naurok-test2.nyc3.digitaloceanspaces.com/1643375/images/240489_1605973020.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 6421,
+      "createdAt": "10.10.2023",
       "type": ["IT"],
       "blocks": [
         {
@@ -1354,12 +1354,12 @@
     },
     {
       "id": "19",
-      "title": "Python news",
+      "title": "Python news 2018",
       "userId": "1",
-      "subtitle": "Что нового в Python за 2023 год?",
+      "subtitle": "Что нового в Python за 2018 год?",
       "img": "https://www.nicepng.com/png/full/148-1484226_image-python-circle-logo.png",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 112346,
+      "createdAt": "26.02.2018",
       "type": ["IT"],
       "blocks": [
         {
@@ -1424,12 +1424,12 @@
     },
     {
       "id": "20",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2018",
       "userId": "1",
-      "subtitle": "Что нового в Kotlin за 2023 год?",
+      "subtitle": "Что нового в Kotlin за 2018 год?",
       "img": "https://ih1.redbubble.net/image.729273887.2476/st,small,507x507-pad,600x600,f8f8f8.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2023",
+      "views": 2047,
+      "createdAt": "02.12.2018",
       "type": ["IT"],
       "blocks": [
         {
@@ -1488,6 +1488,50 @@
           "title": "Заголовок этого блока",
           "paragraphs": [
             "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Экономическая статья - ИНФЛЯЦИЯ!",
+      "subtitle": "Экономика",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": ["ECONOMICS"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Научная статья - Биология",
+      "subtitle": "БиологиЯ",
+      "img": "https://www.hse.ru/data/2020/04/30/1544673822/3iStock-970562458.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": ["SCIENCE"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
           ]
         }
       ]
