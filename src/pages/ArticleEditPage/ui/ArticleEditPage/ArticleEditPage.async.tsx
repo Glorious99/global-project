@@ -1,15 +1,13 @@
 import { lazy } from "react";
 
 //Рабочая модель
-export const ArticleDetailsPageAsync = lazy(
-  () => import("./ArticleDetailsPage")
-);
+export const ArticleEditPageAsync = lazy(() => import("./ArticleEditPage"));
 
 // для проверки индикатора загрузки
-// export const ArticleDetailsPageAsync = lazy(
+// export const ArticleEditPageAsync = lazy(
 //   () =>
 //     new Promise((resolve) => {
 //       //@ts-ignore
-//       setTimeout(() => resolve(import("./ArticleDetailsPage")), 400);
+//       setTimeout(() => resolve(import("./ArticleEditPage")), 400);
 //     })
 // );

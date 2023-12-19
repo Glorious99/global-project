@@ -30,7 +30,7 @@ interface ArticlesPageFiltersProps {
   className?: string;
 }
 
-const ArticlesPageFilters = (props: ArticlesPageFiltersProps) => {
+export const ArticlesPageFilters = memo((props: ArticlesPageFiltersProps) => {
   const { className } = props;
   const dispatch = useAppDispatch();
   const view = useSelector(getArticlesPageView);
@@ -110,6 +110,4 @@ const ArticlesPageFilters = (props: ArticlesPageFiltersProps) => {
       />
     </div>
   );
-};
-
-export default memo(ArticlesPageFilters);
+});

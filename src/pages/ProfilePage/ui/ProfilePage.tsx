@@ -52,7 +52,6 @@ const ProfilePage = (props: ProfilePageProps) => {
     [ValidateProfileError.INCORRECT_USER_DATA]: t("Имя и фамилия обязательны"),
     [ValidateProfileError.INCORRECT_AGE]: t("Некорректный возраст"),
   };
-
   useInitialEffect(() => {
     id && dispatch(fetchProfileData(id));
   });

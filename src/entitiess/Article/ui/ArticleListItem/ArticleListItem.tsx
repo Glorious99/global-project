@@ -17,22 +17,32 @@ import { useTranslation } from "react-i18next";
 import { ArticleTextBlockComponent } from "../ArticleTextBlockComponent/ArticleTextBlockComponent";
 import { RoutePath } from "shared/config/routeConfig/routeConfig";
 import { AppLink } from "shared/ui/AppLink/AppLink";
+import { ARTICLE_LIST_ITEM_LOCALSTORAGE_IDX } from "shared/const/localstorage";
 
 interface ArticleListItemProps {
   className?: string;
   article: Article;
   view: ArticleView;
   target?: HTMLAttributeAnchorTarget;
+  index?: number;
 }
 
 export const ArticleListItem = memo((props: ArticleListItemProps) => {
-  const { className, article, view, target } = props;
+  const { className, article, view, target, index } = props;
   const { t } = useTranslation("article-details");
+
+  const handleButtonClick = () => {
+    sessionStorage.setItem(
+      ARTICLE_LIST_ITEM_LOCALSTORAGE_IDX,
+      JSON.stringify(index)
+    );
+  };
 
   if (view === ArticleView.BIG) {
     const textBlock = article.blocks.find(
       (block) => block.type === ArticleBlockType.TEXT
     ) as ArticleTextBlock;
+
     return (
       <div
         className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}
@@ -57,7 +67,7 @@ export const ArticleListItem = memo((props: ArticleListItemProps) => {
               to={RoutePath.article_details + article.id}
               target={target}
             >
-              <Button theme={ButtonTheme.OUTLINE}>
+              <Button theme={ButtonTheme.OUTLINE} onClick={handleButtonClick}>
                 {t("Читать далее...")}
               </Button>
             </AppLink>
@@ -68,11 +78,13 @@ export const ArticleListItem = memo((props: ArticleListItemProps) => {
       </div>
     );
   }
+
   return (
     <AppLink
       target={target}
       to={RoutePath.article_details + article.id}
       className={classNames(cls.ArticleListItem, {}, [className, cls[view]])}
+      onClick={handleButtonClick}
     >
       <Card className={cls.card}>
         <div className={cls.imageWrapper}>

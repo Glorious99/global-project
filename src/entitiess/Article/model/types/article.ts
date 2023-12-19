@@ -55,6 +55,7 @@ export enum ArticleBlockType {
 export enum ArticleView {
   BIG = "BIG",
   SMALL = "SMALL",
+  RECOMMENDATIONS = "RECOMMENDATIONS",
 }
 
 export enum ArticleSortField {

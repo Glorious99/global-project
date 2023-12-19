@@ -1,1 +1,19 @@
-{}
+{
+  "Произошла ошибка при загрузке профиля": "An error occurred while loading the profile",
+  "Попробуйте обновить страницу": "Try refreshing the page",
+  "Ваше Имя ( ͡° ͜ʖ ͡°)╭∩╮": "Your Name ( ͡° ͜ʖ ͡°)╭∩╮",
+  "Ваша Фамилия": "Your Last Name",
+  "Ваш возраст": "Your age",
+  "Город": "City",
+  "Введите имя пользователя": "Enter username",
+  "Введите ссылку на аватар": "Enter a link to your avatar",
+  "Серверная ошибка при сохранении": "Server error when saving",
+  "Некорректный регион": "Invalid region",
+  "Данные не указаны": "Data not specified",
+  "Имя и фамилия обязательны": "First and last name are required",
+  "Некорректный возраст": "Incorrect age",
+  "Профиль   ‿︵‿ヽ(°□° )ノ︵‿︵": "Profile   ‿︵‿ヽ(°□° )ノ︵‿︵",
+  "Редактировать": "Edit",
+  "Сохранить": "Save",
+  "Отменить": "Cancel"
+}

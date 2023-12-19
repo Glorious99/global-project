@@ -40,17 +40,17 @@ export const Page = memo((props: PageProps) => {
   });
 
   useInitialEffect(() => {
-    console.log("useEffect , scrollPosition", scrollPosition);
-    console.log(
-      "useEffect ,wrapperRef.current.scrollTop ",
-      wrapperRef.current.scrollTop
-    );
+    // console.log("useEffect , scrollPosition", scrollPosition);
+    // console.log(
+    //   "useEffect ,wrapperRef.current.scrollTop ",
+    //   wrapperRef.current.scrollTop
+    // );
 
     wrapperRef.current.scrollTop = scrollPosition;
   });
 
   const onScroll = useThrottle((e: UIEvent<HTMLDivElement>) => {
-    console.log("position", e.currentTarget.scrollTop);
+    // console.log("position", e.currentTarget.scrollTop);
     dispatch(
       uiActions.setScrollPosition({
         position: e.currentTarget.scrollTop,
