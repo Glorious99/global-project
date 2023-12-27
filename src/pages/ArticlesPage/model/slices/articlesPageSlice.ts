@@ -4,7 +4,7 @@ import {
   PayloadAction,
 } from "@reduxjs/toolkit";
 import { StateSchema } from "app/providers/StoreProvider";
-import { ArticlesPageSchema } from "pages/ArticlesPage";
+import { ArticlesPageSchema } from "../../model/types/articllesPageSchema";
 import { fetchArticlesList } from "../../model/services/fetchArticlesList/fetchArticlesList";
 import {
   Article,

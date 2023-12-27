@@ -1,7 +1,12 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "i18next", "react-hooks"],
+  "plugins": [
+    "@typescript-eslint",
+    "i18next",
+    "react-hooks",
+    "glorious-plugin"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -28,6 +33,7 @@
     "no-undef": 0,
     "linebreak-style": 0,
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error"
+    "react-hooks/exhaustive-deps": "error",
+    "glorious-plugin/path-cheker": "error"
   }
 }
