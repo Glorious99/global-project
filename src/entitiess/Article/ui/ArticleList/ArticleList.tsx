@@ -38,11 +38,15 @@ const getSkeletonsFooter = () =>
       />
     ));
 
-const getSkeletons = (view: ArticleView) =>
-  new Array(view === ArticleView.SMALL ? 9 : 3)
+const getSkeletons = () =>
+  new Array(4)
     .fill(0)
     .map((item, index) => (
-      <ArticleListItemSkeleton className={cls.card} key={index} view={view} />
+      <ArticleListItemSkeleton
+        className={cls.card}
+        key={index}
+        view={ArticleView.SMALL}
+      />
     ));
 
 export const ArticleList = memo((props: ArticleListProps) => {
@@ -139,7 +143,11 @@ export const ArticleList = memo((props: ArticleListProps) => {
           components={{ Header, Footer }}
         />
       ) : view === ArticleView.RECOMMENDATIONS ? (
-        articles.map(renderArticle)
+        isLoading ? (
+          getSkeletons()
+        ) : (
+          articles.map(renderArticle)
+        )
       ) : (
         <VirtuosoGrid
           ref={virtuosoGridRef}
