@@ -4,7 +4,7 @@ import { ThemeDecorator } from "shared/config/storybook/ThemeDecorator/ThemeDeco
 import ArticlesPage from "./ArticlesPage";
 
 const meta = {
-  title: "pages/ArticlesPage",
+  title: "pages/ArticleDetailsPage/ArticlesPage",
   component: ArticlesPage,
   argTypes: {
     // backgroundColor: { control: "color" },

@@ -8,7 +8,7 @@ import { StoreDecorator } from "shared/config/storybook/StoreDecorator/StoreDeco
 import ArticleDetailsPage from "./ArticleDetailsPage";
 
 const meta = {
-  title: "pages/ArticleDetailsPage",
+  title: "pages/ArticleDetailsPage//ArticleDetailsPage",
   component: ArticleDetailsPage,
   argTypes: {
     // backgroundColor: { control: "color" },
